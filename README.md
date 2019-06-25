@@ -1,0 +1,2 @@
+# tstt
+TypeScript Type Library
