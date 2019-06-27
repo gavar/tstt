@@ -57,7 +57,7 @@ export type OmitU<T, K extends keyof T> = PickU<T, Exclude<keyof T, K>>;
  * @template T - type of the constructor arguments.
  * @experimental
  */
-interface Prototype<R = any, T extends any[] = never> {
+export interface Prototype<R = any, T extends any[] = never> {
   constructor: Newable<R, T>;
 }
 
@@ -65,7 +65,7 @@ interface Prototype<R = any, T extends any[] = never> {
  * Defines abstract class, that doesn't have constructor.
  * @experimental
  */
-interface Abstract<T = any> {
+export interface Abstract<T = any> {
   /** @inheritDoc */
   prototype: T;
 }
