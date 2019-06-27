@@ -8,6 +8,10 @@
     "test": "node bin/dtslint.js test",
     "test:watch": "nodemon -w **/*.* -x npm test"
   },
+  "files": [
+    "lib/**/*",
+    "src/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gavar/tstt.git"
