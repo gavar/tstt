@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -10,7 +11,6 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "allowJs": true,
     "outDir": "out",
     "paths": {
       "ttsc": ["src"]
@@ -24,9 +24,10 @@
     "target": "es5"
   },
   "include": [
-    "src/**/*.ts",
-    "lib/**/*.ts",
-    "bin/**/*.js"
+    "src",
+    "lib",
+    "bin",
+    "test"
   ],
   "exclude": [
     "**/#*", // all files names starts with #
