@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
@@ -11,6 +10,7 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
+    "allowJs": true,
     "outDir": "out",
     "paths": {
       "ttsc": ["src"]
@@ -23,12 +23,13 @@
     "stripInternal": true,
     "target": "es5"
   },
+  "include": [
+    "src/**/*.ts",
+    "lib/**/*.ts",
+    "bin/**/*.js"
+  ],
   "exclude": [
-    "out",
-    "tmp",
-    "node_modules",
     "**/#*", // all files names starts with #
     "**/*.spec.error.*" // dtslint specs with $ExpectError
   ]
 }
-
