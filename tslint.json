@@ -1,0 +1,12 @@
+{
+  "extends": "tslint-config-standard-plus",
+  "jsRules": true,
+  "rules": {
+    "max-line-length": [true, 160],
+    "no-any": false,
+    "no-unsafe-any": true,
+    "no-use-before-declare": false,
+    "quotemark": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "out",
+    "paths": {
+      "ttsc": ["src"]
+    },
+    "pretty": true,
+    "rootDir": ".",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "stripInternal": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "out",
+    "node_modules",
+    "**/#*", // all files names starts with #
+    "**/*.spec.error.*" // dtslint specs with $ExpectError
+  ]
+}

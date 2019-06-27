@@ -1,0 +1,14 @@
+{
+  "extends": "dtslint/dtslint.json",
+  "rules": {
+    "member-access": false,
+    "no-bad-reference": false,
+    "no-duplicate-variable": false,
+    "no-relative-import-in-test": false,
+    "no-unnecessary-class": false,
+    "no-var-keyword": false,
+    "object-literal-key-quotes": false,
+    "one-variable-per-declaration": false,
+    "use-default-type-parameter": false
+  }
+}

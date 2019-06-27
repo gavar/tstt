@@ -1,0 +1,12 @@
+{
+  "extends": "dtslint/dtslint.json",
+  "rules": {
+    "interface-over-type-literal": false,
+    "member-access": false,
+    "no-bad-reference": false,
+    "no-relative-import-in-test": false,
+    "no-unnecessary-class": false,
+    "no-useless-files": false,
+    "one-variable-per-declaration": false
+  }
+}
