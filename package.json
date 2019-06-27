@@ -4,6 +4,7 @@
   "description": "TypeScript Type Library",
   "main": "src/index.d.ts",
   "scripts": {
+    "lint": "tslint --project tsconfig.json",
     "test": "node bin/dtslint.js test",
     "test:watch": "nodemon -w **/*.* -x npm test"
   },
