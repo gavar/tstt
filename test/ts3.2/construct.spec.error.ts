@@ -1,4 +1,6 @@
+/// <reference no-default-lib="true"/>
 /// <reference path="../../lib/lib.es2015.reflect.d.ts"/>
+
 import { A$$, A0, A1, A1$, A2, N$$, N0, N1, N1$, N2 } from "./class";
 
 Reflect.construct(N0, [1]); // $ExpectError
