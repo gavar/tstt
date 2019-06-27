@@ -4,11 +4,13 @@
   "description": "TypeScript Type Library",
   "main": "src/index.ts",
   "scripts": {
-    "lint": "tslint --project tsconfig.json --format stylish",
+    "lint": "tslint -p tsconfig.json -t stylish",
     "test": "test:jest && test:dtslint",
     "test:jest": "jest -c jest.config.json",
     "test:dtslint": "node bin/dtslint.js test",
-    "test:dtslint:watch": "nodemon -w **/*.* -x npm test"
+    "test:dtslint:watch": "nodemon -w **/*.* -x npm test",
+    "preversion": "yarn lint",
+    "prepublishOnly": "yarn lint && yarn test"
   },
   "files": [
     "lib/**/*",
