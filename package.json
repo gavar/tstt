@@ -4,9 +4,9 @@
   "description": "TypeScript Type Library",
   "main": "src/index.ts",
   "scripts": {
-    "lint": "tslint -p tsconfig.json -t stylish",
-    "test": "test:jest && test:dtslint",
-    "test:jest": "jest -c jest.config.json",
+    "lint": "yarn tslint -p tsconfig.json -t stylish",
+    "test": "yarn test:dtslint && yarn test:jest",
+    "test:jest": "yarn jest -c jest.config.json",
     "test:dtslint": "node bin/dtslint.js test",
     "test:dtslint:watch": "nodemon -w **/*.* -x npm test",
     "preversion": "yarn lint",
