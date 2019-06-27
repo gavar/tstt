@@ -3,7 +3,7 @@
 ## Test
 Test are powered by [dtslint](https://github.com/Microsoft/dtslint) provided by [Microsoft](https://github.com/Microsoft)
 
-Test files should be kept in [test](./test) directory organized by the [TypeScript versions](https://github.com/Microsoft/dtslint#specify-a-typescript-version) folder structure.
+Test files should be kept in [test](test) directory organized by the [TypeScript versions](https://github.com/Microsoft/dtslint#specify-a-typescript-version) folder structure.
 
 ## Development Workflow
 * `yarn lint` - checks the code style.
@@ -38,15 +38,15 @@ Must be one of the following:
 ### Scope
 The scope should be the name of the package affected (as perceived by the person reading the changelog generated from commit messages.
 
-Consider using [source code filenames](./src) as scopes:
-* [array](./src/array.d.ts)
-* [function](./src/function.d.ts)
-* [key](./src/key.d.ts)
-* [object](./src/object.d.ts)
-* [operator](./src/operator.d.ts)
-* [predicate](./src/predicate.d.ts)
-* [primitive](./src/primitive.d.ts)
-* [tuple](./src/tuple.d.ts)
+Consider using [source code filenames](src) as scopes:
+* [array](src/array.ts)
+* [function](src/function.ts)
+* [key](src/key.ts)
+* [object](src/object.ts)
+* [operator](src/operator.ts)
+* [predicate](src/predicate.ts)
+* [primitive](src/primitive.ts)
+* [tuple](src/tuple.ts)
 
 ### Subject
 The subject contains a succinct description of the change:
