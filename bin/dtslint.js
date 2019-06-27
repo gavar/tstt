@@ -8,11 +8,14 @@ const args = process.argv.slice(2);
 console.log(...exec.concat(args));
 
 // run dtslint
-exports = child.spawn(exec.join(" "), args, {
+const proc = child.spawn(exec.join(" "), args, {
     shell: true,
-    stdio: "inherit"
-  }
+    stdio: "inherit",
+  },
 );
+
+proc.on("exit", process.exit);
+module.exports = proc;
 
 function normalize(filename) {
   return filename.replace(/\\/g, "/");
