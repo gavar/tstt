@@ -8,7 +8,6 @@ Test files should be kept in [test](test) directory organized by the [TypeScript
 ## Development Workflow
 * `yarn lint` - checks the code style.
 * `yarn test` - runs the complete test suite.
-* `yarn test:watch` - runs an interactive test watcher.
 
 ## Git Commit Message Style Guide
 Each commit message consists of a **header**, a **body** and a **footer**. The header has a special format that includes a **type**, a **scope** and a **subject**:
