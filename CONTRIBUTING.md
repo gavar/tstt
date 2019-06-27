@@ -26,13 +26,14 @@ Any line of the commit message cannot be longer **100 characters**.
 Must be one of the following:
 * **fix**: a bug fix
 * **feat**: a new feature
-* **docs**: documentation only changes
 * **perf**: a code change that improves performance
-* **style**: changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+* **style**: changes that do not affect the meaning of the code: white-space, formatting, missing semi-colons
 * **refactor**: a code change that neither fixes a bug nor adds a feature
 * **test**: adding missing tests or correcting existing tests
-* **build**: changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-* **ci**: changes to continuous integration configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
+* **ci**: changes to continuous integration configuration files and scripts
+* **build**: changes that affect the build system or external dependencies
+* **chore**: package manager configs; no production code change
+* **docs**: documentation only changes
 
 ### Scope
 The scope should be the name of the package affected (as perceived by the person reading the changelog generated from commit messages.
