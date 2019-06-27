@@ -23,13 +23,9 @@
     "stripInternal": true,
     "target": "es5"
   },
-  "include": [
-    "src",
-    "lib",
-    "bin",
-    "test"
-  ],
   "exclude": [
+    "out",
+    "node_modules",
     "**/#*", // all files names starts with #
     "**/*.spec.error.*" // dtslint specs with $ExpectError
   ]
