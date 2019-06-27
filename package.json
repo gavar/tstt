@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/gavar/tstt/issues"
   },
-  "homepage": "https://github.com/gavar/tstt#readme"
+  "homepage": "https://github.com/gavar/tstt#readme",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
 }
