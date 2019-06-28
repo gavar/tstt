@@ -1,5 +1,5 @@
 {
-  "coverageDirectory": "out/coverage",
+  "coverageDirectory": "coverage",
   "moduleFileExtensions": ["ts", "js", "json"],
   "transform": {
     "^.+\\.(t|j)sx?$": "ts-jest"
