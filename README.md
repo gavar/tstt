@@ -1,5 +1,11 @@
 # TypeScript Type Library
 
+[![NPM](https://img.shields.io/npm/v/tstt.svg)](https://www.npmjs.com/package/tstt)
+[![CircleCI](https://img.shields.io/circleci/build/github/gavar/tstt.svg)](https://circleci.com/gh/gavar/tstt/tree/master)
+[![Dependencies](https://img.shields.io/david/gavar/tstt.svg)](https://david-dm.org/gavar/tstt)
+[![Downloads](https://img.shields.io/npm/dt/tstt.svg)](https://www.npmjs.com/package/tstt)
+[![GitHub](https://img.shields.io/github/license/gavar/tstt.svg)](https://github.com/gavar/tstt/blob/master/LICENSE)
+
 Intention is to collect useful abstract type operators in one place, so you can stop copying and pasting these solutions into project after project.
 Library is designed to be fully static, i.e. it has no runtime component, only a type definition file.
 
