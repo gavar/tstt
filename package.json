@@ -14,8 +14,8 @@
     "prepublishOnly": "yarn lint && yarn test"
   },
   "files": [
-    "lib/**/*",
-    "src/**/*"
+    "lib",
+    "src"
   ],
   "repository": {
     "type": "git",
