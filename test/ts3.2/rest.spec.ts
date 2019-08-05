@@ -2,11 +2,11 @@ import { Rest } from "../../src";
 
 it("Rest", () => {
   expect<Rest>(); // $ExpectType never
-  expect<Rest<any>>(); // $ExpectType never
-  expect<Rest<number>>(); // $ExpectType never
-  expect<Rest<string>>(); // $ExpectType never
-  expect<Rest<unknown>>(); // $ExpectType never
-  expect<Rest<undefined>>(); // $ExpectType never
+  expect<Rest<any>>(); // $ExpectType [any]
+  expect<Rest<number>>(); // $ExpectType [number]
+  expect<Rest<string>>(); // $ExpectType [string]
+  expect<Rest<unknown>>(); // $ExpectType [unknown]
+  expect<Rest<undefined>>(); // $ExpectType [undefined]
 
   expect<Rest<[any]>>(); // $ExpectType [any]
   expect<Rest<[string]>>(); // $ExpectType [string]
