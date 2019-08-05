@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "TypeScript Type Library",
   "main": "src/index.ts",
+  "types": "src/index.ts",
   "scripts": {
     "lint": "yarn tslint -p tsconfig.json -t stylish",
     "test": "yarn test:dtslint && yarn test:jest",
