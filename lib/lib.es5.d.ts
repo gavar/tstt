@@ -9,3 +9,10 @@ interface Promise<T = unknown> {}
  * so it could be used without explicitly defining element type.
  */
 interface ArrayLike<T = unknown> {}
+
+/**
+ * Enhance type definitions of {@link ObjectConstructor}.
+ */
+interface ObjectConstructor {
+  keys<T>(o: T): Array<keyof T>;
+}
