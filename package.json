@@ -1,8 +1,9 @@
 {
   "name": "tstt",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "TypeScript Type Library",
   "main": "src/index.ts",
+  "types": "src/index.ts",
   "scripts": {
     "lint": "yarn tslint -p tsconfig.json -t stylish",
     "test": "yarn test:dtslint && yarn test:jest",
@@ -13,8 +14,8 @@
     "prepublishOnly": "yarn lint && yarn test"
   },
   "files": [
-    "lib/**/*",
-    "src/**/*"
+    "lib",
+    "src"
   ],
   "repository": {
     "type": "git",

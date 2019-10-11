@@ -1,13 +1,20 @@
 # TypeScript Type Library
 
 [![NPM](https://img.shields.io/npm/v/tstt.svg)](https://www.npmjs.com/package/tstt)
-[![CircleCI](https://img.shields.io/circleci/build/github/gavar/tstt.svg)](https://circleci.com/gh/gavar/tstt/tree/master)
-[![Dependencies](https://img.shields.io/david/gavar/tstt.svg)](https://david-dm.org/gavar/tstt)
+[![License](https://img.shields.io/github/license/gavar/tstt.svg)](https://github.com/gavar/tstt/blob/master/LICENSE)
 [![Downloads](https://img.shields.io/npm/dt/tstt.svg)](https://www.npmjs.com/package/tstt)
-[![GitHub](https://img.shields.io/github/license/gavar/tstt.svg)](https://github.com/gavar/tstt/blob/master/LICENSE)
+
+[![Dependencies](https://img.shields.io/david/gavar/tstt.svg)](https://david-dm.org/gavar/tstt)
+[![Dev Dependencies](https://img.shields.io/david/dev/gavar/tstt.svg)](https://david-dm.org/gavar/tstt?type=dev)
+[![Peer Dependencies](https://img.shields.io/david/peer/gavar/tstt.svg)](https://david-dm.org/gavar/tstt?type=peer)
 
 Intention is to collect useful abstract type operators in one place, so you can stop copying and pasting these solutions into project after project.
 Library is designed to be fully static, i.e. it has no runtime component, only a type definition file.
+
+| Branch  | Status | 
+| ------- | ------ |
+| master  | [![CircleCI](https://img.shields.io/circleci/build/github/gavar/tstt/master.svg)](https://circleci.com/gh/gavar/tstt/tree/master) | 
+| develop | [![CircleCI](https://img.shields.io/circleci/build/github/gavar/tstt/develop.svg)](https://circleci.com/gh/gavar/tstt/tree/develop) | 
 
 ## Installation
 Install as any other npm package, preferably as development dependency.
@@ -27,17 +34,13 @@ yarn add tstt --dev
  your tsconfig.json:
 ```
 # tsconfig.json
-{
-  "compilerOptions": { ... }
-  "include": {
-    "node_modules/tstt/lib/lib.es5.d.ts"
-  }
+"compilerOptions": { ... }
+"include": {
+  "node_modules/tstt/lib/lib.es5.d.ts"
 }
 ```
-or by using [Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html):
-```
-/// <reference path="../../lib/lib.es2015.reflect.d.ts"/>
-```
+or by using [Triple-Slash Directives](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html):<br>
+`/// <reference path="../../lib/lib.es2015.reflect.d.ts"/>`
 
 ## Contributing
 Read [contribution guide](./CONTRIBUTING.md) to learn about development process.

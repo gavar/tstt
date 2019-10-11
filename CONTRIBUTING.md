@@ -1,9 +1,9 @@
 # How to Contribute
 
 ## Test
-Test are powered by [dtslint](https://github.com/Microsoft/dtslint) provided by [Microsoft](https://github.com/Microsoft)
+Test are powered by [dtslint](https://github.com/Microsoft/dtslint).
 
-Test files should be kept in [test](test) directory organized by the [TypeScript versions](https://github.com/Microsoft/dtslint#specify-a-typescript-version) folder structure.
+Test files should be kept in [test](test) directory and organized by the [TypeScript versions](https://github.com/Microsoft/dtslint#specify-a-typescript-version) folder structure.
 
 ## Development Workflow
 * `yarn lint` - checks the code style.
@@ -97,5 +97,5 @@ See also: #456, #789
 ```
 
 ### References:
-[Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide)
-[Contributing to Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines)
+* [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide)
+* [Contributing to Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines)
