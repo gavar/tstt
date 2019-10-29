@@ -25,4 +25,5 @@ export type TypeOf =
   | "symbol"
   | "object"
   | "function"
+  | "bigint"
   ;
