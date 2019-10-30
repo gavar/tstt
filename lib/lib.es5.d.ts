@@ -14,5 +14,5 @@ interface ArrayLike<T = unknown> {}
  * Enhance type definitions of {@link ObjectConstructor}.
  */
 interface ObjectConstructor {
-  keys<T>(o: T): Array<keyof T>;
+  keys<T>(o: T): Array<keyof T & string>;
 }
